@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Using Bio.SeqIO to count fasta files
+# Using Bio.SeqIO to count fasta records
 from Bio import SeqIO
 filename = "NC_000913.faa". # Write the your file name here 
 count = 0
