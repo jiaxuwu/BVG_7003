@@ -14,14 +14,13 @@ Requirement
 
 Biophyton installation
 ----------
-using::
 
-  pip3 install biopython
+    pip3 install biopython
   
 To check the function if Biopython is working in python:
 
 
->>> import Bio
->>> print(Bio.__version___)
+    >>> import Bio
+    >>> print(Bio.__version___)
 
 
