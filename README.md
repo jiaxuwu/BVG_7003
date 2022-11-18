@@ -17,7 +17,7 @@ Biophyton installation
 
     pip3 install biopython
   
-To check the function if Biopython is working in python:
+To check the function if Biopython is working in python3:
 
 
     >>> import Bio
