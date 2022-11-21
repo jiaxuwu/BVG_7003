@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# Checking proteins start with methionine
+# Checking proteins start without methionine
 from Bio import SeqIO
 filename = "NC_000913.faa"  # Write your file name here
 bad = 0
