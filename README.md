@@ -2,7 +2,7 @@
 
 This page is created by Jiaxu Wu
 
-There are some python scripts for test in BVG_7003 @ Université Laval, including `Bio.Seq` and `Bio.Phylo` two parts.
+There are some python scripts for test in BVG_7003 @ Université Laval, which includes `Bio.Seq` and `Bio.Phylo` two parts.
 
 For Bio.SeqIO --see https://biopython.org/wiki/SeqIO
 
@@ -39,7 +39,9 @@ Bio.SeqIO
 
 Bio.SeqIO provides a simple uniform interface to input/output assorted sequence file formats.
 
-There are 9 expamles in this section. We also attached `NC_000913.faa`, `NC_000913.gbk` and `PGSC_DM_v3.4_pep_representative.fasta` as testfiles. 
+There are 9 expamles in this section. We also attached `NC_000913.faa`, `NC_000913.gbk` and `PGSC_DM_v3.4_pep_representative.fasta` as testfiles.
+
+The results were saved in `result_files` folder.
 
 ### Examples
 
