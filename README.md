@@ -39,7 +39,7 @@ Bio.SeqIO
 
 Bio.SeqIO provides a simple uniform interface to input/output assorted sequence file formats.
 
-There are 9 expamles in this section. We also attached `NC_000913.faa`, `NC_000913.gbk`, `NC_000913_cds.fasta` and `PGSC_DM_v3.4_pep_representative.fasta` as testfiles. 
+There are 9 expamles in this section. We also attached `NC_000913.faa`, `NC_000913.gbk` and `PGSC_DM_v3.4_pep_representative.fasta` as testfiles. 
 
 ### Examples
 
@@ -75,12 +75,12 @@ There are 9 expamles in this section. We also attached `NC_000913.faa`, `NC_0009
 >The new file will be created:
 >`PGSC_DM_v3.4_pep_rep_no_stars.fasta`
 
-`filter2.py` is used to select selects records of type CDS from NC_000913.gbk and creat a file named `NC_000913_cds.fasta`.
+`filter2.py` is used to select selects records of type CDS from `NC_000913.gbk` and creat a file named `NC_000913_cds.fasta`.
 
 >The output is:
 >4319 CDS sequences extracted
 
-`total_gene_lengths` is used stelect gene type features  and calculates the total length including all genes from `NC_000913.gbk`.
+`total_gene_lengths` is used stelect gene type features and calculates the total length including all genes from `NC_000913.gbk`.
 
 >The output is:
 >Total length of all genes is 4137209
